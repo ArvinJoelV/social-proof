@@ -1,0 +1,164 @@
+body{
+    font-family: var(--ff-accent);
+    font-size: 1.0625rem;
+    
+    
+}
+
+:root {
+    --clr-primary-800: hsl(300, 43%, 22%);
+    --clr-primary-400: hsl(333, 80%, 67%);
+  
+    --clr-secondary-200: hsl(303, 10%, 53%);
+    --clr-secondary-100: hsl(300, 24%, 96%);
+  
+    --clr-neutral-100: hsl(0, 0%, 100%);
+  
+    --ff-accent: "League Spartan", sans-serif;
+  
+    --fw-bold: 800;
+    --fw-regular: 600;
+    --fw-semi-regular: 500;
+    --fw-semi: 400;
+  }
+
+p,h1,h4{
+    margin: 0;
+}
+.main{
+    
+}
+
+.sub1{
+    
+}
+
+.sub2{
+    
+}
+.header{
+    display: flex;
+    padding:7%;
+}
+.sub1h1{
+    color:var(--clr-primary-800);
+    font-weight: 800;
+    padding: 50px;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+.sub1p{
+    color: var(--clr-secondary-200);
+    font-weight: 500;
+    padding: 30px;
+    padding-bottom: 15px;
+
+
+}
+.back{
+    position: absolute;
+
+}
+.stars{
+    background-color: var(--clr-secondary-100);
+    margin:7%;
+    padding:5%;
+    border-radius: 10px;
+}
+.img{
+    margin-left: 33%;
+}
+.stars p{
+    text-align: center;
+    font-weight: 800;
+    color: var(--clr-primary-800);
+}
+
+.colton, .colton1, .colton2{
+    background-color: var(--clr-primary-800);
+    margin: 30px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    height: 250px;
+}
+.header img{
+    border-radius: 50%;
+}
+.pa{
+    color: var(--clr-secondary-100);
+    padding:7%; 
+    padding-top: 0;
+    font-weight: 600;
+    padding-bottom: 0;
+
+}
+.header h4{
+    color: var(--clr-secondary-100);
+    font-weight: 800;
+}
+.ve{
+    color: var(--clr-primary-400);
+}
+.name{
+    padding:20px
+}
+@media(min-width:576px){
+    .sub1{
+        display: flex;
+    }
+    .sub1left{
+        width: 50%;
+    }
+    .sub2{
+        display: flex;
+    }
+    body{
+        
+    }
+    .stars{
+        display:flex;
+        margin: 0;
+        width: 110%;
+
+    }
+    .img{
+        margin: 0;
+        margin-left: 30px;
+        margin-top:5px;
+    }
+    .stars p{
+        margin-left: 40px;
+        
+    }
+    #h1{
+        margin-top: 70px;
+    }
+    #h2{
+       margin-left: 45px;
+       margin-top: 20px;
+
+    }
+    #h3{
+        margin-left: 90px;
+        margin-top: 20px;
+        
+    }
+    .sub1h1{
+        width: 50%;
+
+    }
+    .sub1p{
+        width: 70%;
+        margin-left: 87px;
+    }
+    .sub2{
+        margin-left: 97px;
+        margin-top: 30px;
+        }
+    .colton1{
+        margin-top: 50px;
+    }
+    .colton2{
+        margin-top: 70px;
+    }
+}
